@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+
+    <string name="btnPlay">Jugar</string>
+    <string name="btnOption">Opciones</string>
+    <string name="txtScores">Puntuaciones</string>
+    <string name="txtDifficulty">Dificultad</string>
+    <string name="btnPrev">Anterior</string>
+    <string name="btnNext">Siguiente</string>
+
+    <string name="txtCorrect">Correcto</string>
+    <string name="txtIncorrect">Incorrecto</string>
+
+    <string name="txtPoints">Puntuación: </string>
+
+    <string name="txtQuestionNumber">Pregunta</string>
+    <string name="btnHint">Pistas:</string>
+
+    <string name="txtLogoDesc">Imagen del logo</string>
+
+    <string name="txtGameOptions">Opciones del juego</string>
+    <string name="txtInProgress">Sección en desarrollo</string>
+
+    <string name="txtCongrats">¡Muchas felicidades!</string>
+
+    <string name="txtHistory">Historia</string>
+    <string name="txtGeography">Geografía</string>
+    <string name="txtArtLit">Arte y Literatura</string>
+    <string name="txtEntertainment">Entretenimiento</string>
+    <string name="txtScience">Ciencias</string>
+    <string name="txtAll">Todos</string>
+
+    <string name="txtEasy">Fácil</string>
+    <string name="txtNormal">Normal</string>
+    <string name="txtHard">Difícil</string>
+
+    <string name="txtEnableHints">Activar pistas</string>
+
+    <string-array name="difficulty">
+        <item>Fácil</item>
+        <item>Normal</item>
+        <item>Difícil</item>
+    </string-array>
+
+    <string name="txtBackAgain">Vuelve a presionar atrás para salir</string>
+    <string name="txtUser">Usuario</string>
+    <string name="txtSave">Guardar</string>
+    <string name="txtTopScores">Puntajes</string>
+    <string name="txtTop5Scores">Top 5 mejores puntajes</string>
+
+    <string name="txtname">Nombre:</string>
+    <string name="txthints">Hints:</string>
+    <string name="txtPointsTop">Puntos:</string>
+
+    <string name="txtWarning">¡Inserte sus iniciales!</string>
+
+</resources>

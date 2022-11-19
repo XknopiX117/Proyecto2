@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9BC9F8"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".OptionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtGameOptions"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtHistory"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chkArtLit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtArtLit"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chkGeography"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtGeography"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chkEntertainment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtEntertainment"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chkScience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtScience"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/chkAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtAll"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stepSize="1"
+            android:valueFrom="5"
+            android:valueTo="10"
+            app:haloColor="#FBFBFB"
+            app:thumbColor="@color/black"
+            app:thumbStrokeColor="#FAB303"
+            app:tickColor="#FFFFFF"
+            app:trackColor="#673AB7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/txtDifficulty"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinnerDifficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            android:entries="@array/difficulty"
+            android:popupBackground="#d0ffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:gravity="center">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/txtEnableHints"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            app:thumbTint="@color/black"
+            app:trackTint="#B303FF" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

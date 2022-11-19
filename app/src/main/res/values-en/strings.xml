@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+
+    <string name="btnPlay">Play</string>
+    <string name="btnOption">Options</string>
+    <string name="txtScores">Scores</string>
+    <string name="txtDifficulty">Difficulty</string>
+    <string name="btnPrev">Previous</string>
+    <string name="btnNext">Next</string>
+
+    <string name="txtCorrect">Correct</string>
+    <string name="txtIncorrect">Incorrect</string>
+
+    <string name="txtPoints">Score: </string>
+
+    <string name="txtQuestionNumber">Question</string>
+    <string name="btnHint">Hints:</string>
+
+    <string name="txtLogoDesc">Logo image</string>
+
+    <string name="txtGameOptions">Game options</string>
+    <string name="txtInProgress">Work in progress</string>
+
+    <string name="txtCongrats">Congratulations!</string>
+
+    <string name="txtHistory">History</string>
+    <string name="txtGeography">Geography</string>
+    <string name="txtArtLit">Art and Literature</string>
+    <string name="txtEntertainment">Entertainment</string>
+    <string name="txtScience">Science</string>
+    <string name="txtAll">All</string>
+
+    <string name="txtEasy">Easy</string>
+    <string name="txtNormal">Normal</string>
+    <string name="txtHard">Hard</string>
+
+    <string name="txtEnableHints">Enable hints</string>
+
+    <string-array name="difficulty">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string name="txtBackAgain">Press back once again to exit</string>
+    <string name="txtUser">User</string>
+    <string name="txtSave">Save</string>
+    <string name="txtTopScores">Scores</string>
+    <string name="txtTop5Scores">Top 5 best scores</string>
+
+    <string name="txtname">Name:</string>
+    <string name="txthints">Hints:</string>
+    <string name="txtPointsTop">Points:</string>
+
+    <string name="txtWarning">Insert your name initials!</string>
+
+</resources>
