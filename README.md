@@ -1,3 +1,3 @@
 # Proyecto2
 
-Proyecto donde se utiliza el ViewModel para poder mantener el estado de las variables sobreviviendo la rotación de la pantalla. 
+Proyecto de app donde se utiliza una base de datos local offline para guardar avances y configuraciones del juego. 
